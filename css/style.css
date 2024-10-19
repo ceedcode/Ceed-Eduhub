@@ -58,6 +58,7 @@ li {
   --btn-hover-bg-color: #003b99;
   --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                       /*rgba(define color and alpha/opacity)horizontal verticaloffset blur radius and spread radius*/
+  --footer-bg-color:#040d12;                    
 }
 
 /* layout */
@@ -74,7 +75,7 @@ li {
 .section-course .container:first-child,
 /* .section-contact--homepage .container:first-child, */
 .section-why--choose .container:first-child {
-  padding: 2.6rem 0 1.5rem 0;
+  padding: 2.8rem 0 2rem 0;
 }
 
 .flex {
@@ -114,17 +115,17 @@ li {
   -o-border-radius: 0.6rem;
 }
 
-.section-common-heading {
+.section-common--heading {
   font-size: 3.2rem;
   font-weight: 700;
   text-transform: capitalize;
 }
 
-.section-common-subheading {
+.section-common--subheading {
   color: var(--heading-color);
 }
 
-.section-common-title {
+.section-common--title {
   font-size: 1.8rem;
   margin: 2.4rem 0 1.2rem 0;
 }
@@ -382,6 +383,13 @@ li {
 
 
 /***** Why Choose Section *****/ 
+
+.section-why--choose { 
+  margin-bottom: -10rem;
+    
+}
+
+
 .section-why--choose .grid {
     gap: 5.8rem;
 }
@@ -511,6 +519,12 @@ li {
    -ms-border-radius: 0.3rem;
    -o-border-radius: 0.3rem;
    padding: 0 1.2rem;
+   position: relative;
+   bottom: -18rem;
+   
+/* margin-bottom: -15rem; */
+background-color: var(--white-color);
+
 
 
    & .grid
@@ -553,3 +567,54 @@ li {
 
 /***** End contact home Section *****/
 
+
+
+/***** Footer Section *****/ 
+
+footer {
+  background-color: var(--footer-bg-color);
+  padding-top: 15rem;
+}
+
+footer * {
+  color: var(--white-color);
+ 
+}
+
+footer .grid {
+  text-align: right;
+}
+
+.footer-subheading {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.footer-1--div {
+  text-align: left;
+}
+
+.footer-1--div p {
+  margin: 1rem 0 2rem 0;
+}
+
+.social-footer--icon {
+  gap: 2.5rem;
+}
+
+.social-footer--icon .fa-brands {
+
+ transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+ -ms-transition: all 0.3s linear;
+ -o-transition: all 0.3s linear;
+}
+
+.social-footer--icon .fa-brands:hover {
+  color: var(--supporting-color);
+  background-color: var(--btn-hover-bg-color);
+  rotate: 360deg;
+}
+
+/***** End Footer Section *****/
