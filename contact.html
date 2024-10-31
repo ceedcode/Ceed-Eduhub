@@ -12,6 +12,15 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+
+    
+    <style>
+      footer {
+      padding-top: 0;
+      }
+    </style>
+
+
   </head>
 
   <body>
@@ -30,129 +39,165 @@
         </div>
         <nav class="navbar">
           <ul class="flex">
-            <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
-            <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
-            <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
 
+    <!-- ========== Start Contact Section ========== -->
 
-      <!-- ========== Start Contact Section ========== -->
+    <div class="section-contact">
+      <div class="container">
+        <h2 class="section-common--heading">Contact Us</h2>
+        <p class="section-common--subheading">
+          Get in touch with us. We are always here to help you.
+        </p>
+      </div>
 
-      <div class="section-contact">
-        <div class="container">
-            <h2 class="section-common--heading">Contact Us</h2>
-            <p class="section-common--subheading">Get in touch with us. We are always here to help you.
-            </p>
-        </div>
-
-        <div class="container grid grid-two--cols mb-3">
-          <div class="contact-content">
-            <form action="#">
-              <div class="grid grid-two--cols mb-3">
-                <div>
-                  <label for="username">username</label>
-                  <input type="text" name="username" id="username" required autocomplete="off" placeholder="enter your name">
-                </div>
-                
-                <div>
-                  <label for="email">enter your email</label>
-                  <input type="email" name="email" id="email" autocomplete="off" required placeholder="abc@ceedcode.com">
-                </div>
-              </div>
-
-              <div class="mb-3">
-                <label for="subject">subject</label>
-                <input type="text" name="subject" id="subject" placeholder="title of your subject">
-              </div>
-
-              <div class="mb-3">
-                <label for="message">message</label>
-                <textarea name="message" id="message" cols="25" rows="8" placeholder="enter your message"
-                ></textarea>
+      <div class="container grid grid-two--cols mb-3">
+        <div class="contact-content">
+          <form action="#">
+            <div class="grid grid-two--cols mb-3">
+              <div>
+                <label for="username">username</label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  required
+                  autocomplete="off"
+                  placeholder="enter your name"
+                />
               </div>
 
               <div>
-                <button type="submit" class="btn btn-submit">send message</button>
+                <label for="email">enter your email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                  required
+                  placeholder="abc@ceedcode.com"
+                />
               </div>
-            </form>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject">subject</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="title of your subject"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="message">message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="25"
+                rows="8"
+                placeholder="enter your message"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-submit">send message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="content-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223978.1567894699!2d77.23021355892985!3d28.699854479962806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1bb41c50fdf%3A0xe6f06fd26a7798ba!2sGhaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1729922053031!5m2!1sen!2sin"
+            width="100%"
+            height="450px"
+            style="border: 1"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End Contact Section ========== -->
+
+    <!-- ========== Start Footer Section ========== -->
+
+    <footer>
+      <div class="container grid grid-four--cols">
+        <div class="footer-1--div">
+          <div class="logo-brand">
+            <a href="index.html" class="footer-subheading">CEEDCODE EduHub</a>
           </div>
+          <p>Let's revolutionize the way you study with CEEDCODE EduHub</p>
 
+          <div class="social-footer--icon flex">
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-discord common-text--highlight"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-youtube common-text--highlight"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-instagram common-text--highlight"></i>
+            </a>
+          </div>
         </div>
 
-
+        <div class="footer-2--div">
+          <p class="footer-subheading">Courses</p>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+          </ul>
         </div>
 
-  
-      
-      <!-- ========== End Contact Section ========== -->
+        <div class="footer-3--div">
+          <p class="footer-subheading">Blogs</p>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+          </ul>
+        </div>
 
-      
-
-   
-        
-            <!-- ========== Start Footer Section ========== -->
-        
-            <footer>
-              <div class="container grid grid-four--cols">
-                <div class="footer-1--div">
-                  <div class="logo-brand">
-                    <a href="index.html" class="footer-subheading">CEEDCODE EduHub</a>
-                  </div>
-                  <p>Let's revolutionize the way you study with CEEDCODE EduHub</p>
-        
-                  <div class="social-footer--icon flex">
-                    <a href="#" target="_blank" >
-                      <i class="fa-brands fa-discord common-text--highlight"></i>
-                    </a>
-                    <a href="#" target="_blank" >
-                      <i class="fa-brands fa-youtube common-text--highlight"></i>
-                    </a>
-                    <a href="#" target="_blank" >
-                      <i class="fa-brands fa-instagram common-text--highlight"></i>
-                    </a>
-                  </div>
-                </div>
-        
-                <div class="footer-2--div">
-                  <p class="footer-subheading">Courses</p>
-                  <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="index.html">home</a></li>
-                  </ul>
-                </div>
-        
-                <div class="footer-3--div">
-                    <p class="footer-subheading">Blogs</p>
-                    <ul>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                    </ul>
-                  </div>
-        
-                  <div class="footer-4--div">
-                    <p class="footer-subheading">Links</p>
-                    <ul>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                      <li><a href="index.html">home</a></li>
-                    </ul>
-                  </div>
-        
-                  
-              </div>
-            </footer>
-            <!-- ========== End Footer Section ========== -->
-    </body>
+        <div class="footer-4--div">
+          <p class="footer-subheading">Links</p>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">home</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== End Footer Section ========== -->
+  </body>
+</html>
