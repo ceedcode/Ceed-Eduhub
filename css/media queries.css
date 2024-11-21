@@ -1,0 +1,158 @@
+/***** media queries Section *****/
+
+/* 
+ @media (width <= 1400px) {  
+ @media screen and (max-width: 1380px) {*/
+@media (max-width: 1400px) {
+  html {
+    font-size: 56.25%;
+    /* 1rem = 9px */
+  }
+
+  .section-hero--image img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 53.125%;
+    /* 1rem = 8px */
+  }
+}
+
+@media (max-width: 1050px) {
+  .section-course .grid-four--cols {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  } 
+  /* ? auto-fit: Iska matlab hai ki grid automatically columns ko adjust karegi taaki maximum columns fit ho jayein bina kisi empty space ke.<--------minmax(250px, 1fr): Yaha minmax function ka use ho raha hai. Iska matlab hai ki har column ki minimum width 250px hogi, aur agar zyada space available hai toh wo expand hokar maximum 1fr (1 fraction of available space) le lega. */
+
+.section-why--choose {
+
+  & .choose-left--div {
+    order: 2;
+  }
+
+  & .choose-right--div {
+    order: 3;
+  }
+  & .choose-center--div {
+    order: 1;
+    & figure::before, figure::after {
+      width: 0;
+      height: 0;
+      padding: 0;
+      background-color: transparent;
+
+    }
+    & figure  {
+      width: 35rem;
+      /* aspect-ratio: 2; */
+      height: auto;
+    }
+  }
+}
+
+}
+
+@media (max-width: 992px) {
+  .section-hero {
+    height: auto;
+    padding-bottom: 5rem;
+
+    & .grid-two--cols {
+      grid-template-columns: 1fr;
+    }
+
+    & .section-hero--content {
+      order: 2;
+    }
+
+    & .section-hero--image {
+      order: 1;
+
+      & img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+  
+}
+
+@media (max-width: 830px) {
+  .section-why--choose .grid-three--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-why--choose .choose-left--div .why-choose--div {
+    align-items: start;
+    text-align: left;
+}
+}
+
+
+
+@media (min-width: 590px) and (max-width: 995px) {
+  footer .grid-four--cols {
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    text-align: left;
+
+    & .footer-1--div {
+      grid-row: 2/3;
+      grid-column: 1/-1;
+      margin-top: 6.4rem;
+    }
+  }
+
+}
+
+@media (max-width: 770px) {
+  .grid-three--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-navbar .container {
+    flex-direction: column;
+  }
+
+  & .navbar-brand {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-about .about-div {
+    text-align: left;
+  }
+
+ 
+
+}
+
+
+
+@media (max-width: 589px) {
+  footer .grid {
+    text-align: left;
+  }
+
+  footer .grid-four--cols {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+
+  footer .grid-four--cols .footer-1--div {
+    grid-row: 4 / 5;
+    grid-column: 1 / -1;
+  }
+
+ 
+  footer .grid-four--cols > * {    
+    margin-bottom: 2.8rem;
+  }
+  /*?     footer .grid-four--cols > * selects all direct children (* signifies any child element) of the .grid-four--cols class under the footer element.*/
+}
+
+
+
+/***** End media queries Section *****/
