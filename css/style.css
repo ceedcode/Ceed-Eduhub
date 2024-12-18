@@ -48,18 +48,18 @@ li {
 /* theme */
 
 :root {
-  --main-color: #0062ff;
+  --main-color: #0C66FF;
   --supporting-color: #ebf3fe;
   --font-color: #424242;
-  --bg-color: #f7fcff;
+  --bg-color: #89b4fdde;
   --heading-color: #000a19;
-  --main-hero-color: #003b99;
+  --main-hero-color: #014BC9;
   --h-color: #0a043c;
   --white-color: #ffffff;
   --test: #070101;
   --para-color: #504e4d;
-  --btn-hover-bg-color: #003b99;
-  --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --btn-hover-bg-color: #2A79FF;
+  --btn-box-shadow: rgba(1, 75, 201, 0.9) 7px 10px 29px 2px;
   /*rgba(define color and alpha/opacity)horizontal verticaloffset blur radius and spread radius*/
   --footer-bg-color: #040d12;
 }
@@ -170,7 +170,7 @@ li {
 
 .section-navbar {
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 1px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
     & .navbar-brand img {
@@ -230,9 +230,9 @@ li {
   position: relative; /*for shape devider pluggin*/
   background-image: linear-gradient(
     to top right,
-    #3d86fa,
-    #4484fb,
-    #679eff,
+    #2879FF,
+    #5896FF,
+    #89B4FD,
     #b3d2ff,
     #ebf3fe
   );
@@ -340,7 +340,7 @@ li {
 
   /* rotate: 360deg;   isme transform ka use nahi krna hota hai*/
 
-  background: linear-gradient(to right, #0575e6, #021b79);
+  background: linear-gradient(to right, #2A79FF, #0C66FF);
 }
 
 /***** End About Section *****/
@@ -493,19 +493,19 @@ figure {
   }
 
   25% {
-    background-color: #80b1ff;
+    background-color: #5896FF;
   }
 
   50% {
-    background-color: #4d91ff;
+    background-color: #0C66FF;
   }
 
   75% {
-    background-color: #99c0ff;
+    background-color: #2879FF;
   }
 
   100% {
-    background-color: #3381ff;
+    background-color: #014BC9;
   }
 }
 
@@ -573,8 +573,8 @@ figure {
   width: 60%;
   min-height: 30rem;
   margin: 0 auto;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(88, 150, 255, 0.5) 0px 1px 2px 1px,
+    rgba(22, 102, 255, 0.5) 0px 2px 6px 2px;
   margin-bottom: 5rem;
   border-radius: 0.3rem;
   -webkit-border-radius: 0.3rem;
