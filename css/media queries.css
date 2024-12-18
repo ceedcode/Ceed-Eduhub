@@ -60,11 +60,11 @@
     align-items: center;
     gap: 5.4rem;
   }
-  & img {
+  /* & img {
     width: 35rem;
     height: auto;
     object-fit: cover;
-  }
+  } */
 }
 
 }
@@ -86,7 +86,7 @@
       order: 1;
 
       & img {
-        width: 80%;
+        width: 60%;
         height: auto;
       }
     }
@@ -97,14 +97,14 @@
       align-items: center;
       gap: 2.4rem;
     }
-    & img {
+    /* & img {
       width: 25rem;
-      height: auto;
+      height: auto; */
       
     }
   }
   
-}
+
 
 @media (max-width: 830px) {
   .section-why--choose .grid-three--cols {
@@ -189,6 +189,12 @@
       width: 70%; 
       
     } 
+  }
+  .section-contact--homepage {
+    & .grid {
+      align-items: center;
+      gap: 5.4rem;
+    }
   }
   
 
