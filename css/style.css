@@ -175,14 +175,11 @@ li {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 1px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
-    & .navbar-brand img {
-      
-      width: 90%;
-      /* object-fit: cover; */
-      aspect-ratio: 3.2 / 1;
-     
-    } 
-
+  & .navbar-brand img {
+    width: 90%;
+    /* object-fit: cover; */
+    aspect-ratio: 3.2 / 1;
+  }
 }
 
 .section-navbar .container {
@@ -619,7 +616,7 @@ figure {
 
 .section-contact--homepage img {
   width: 80%;
- object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 1 / 1;
 }
 
@@ -666,7 +663,8 @@ textarea {
   text-transform: capitalize;
 }
 
-input:focus-visible, textarea:focus-visible {
+input:focus-visible,
+textarea:focus-visible {
   outline: 0.2rem solid var(--btn-hover-bg-color);
 }
 
@@ -720,7 +718,7 @@ footer .grid {
 
 /***** End Footer Section *****/
 
-/***** Scroll-Bar Section *****/ 
+/***** Scroll-Bar Section *****/
 
 /* width */
 ::-webkit-scrollbar {
@@ -747,10 +745,4 @@ footer .grid {
   background: var(--heading-color);
 }
 
-
- /***** End Scroll-Bar Section *****/
-
-
- /*? scroll animation and scroll snap */
-
-
+/***** End Scroll-Bar Section *****/
